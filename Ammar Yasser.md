@@ -1,0 +1,13 @@
+# Solution in C#
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        long n = long.Parse(Console.ReadLine());
+        long sum = n * (n + 1) / 2;
+        Console.WriteLine(sum);
+    }
+}
